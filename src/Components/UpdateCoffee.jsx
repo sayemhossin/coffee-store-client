@@ -22,7 +22,7 @@ const UpdateCoffee = () => {
         console.log(updatedCoffee)
 
         //   send data to the server
-        fetch(`http://localhost:5000/coffee/${_id}`, {
+        fetch(`https://coffee-store-server-dgfm.onrender.com/coffee/${_id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'
